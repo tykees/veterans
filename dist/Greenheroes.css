@@ -1,0 +1,420 @@
+
+
+.navbar {
+    border-bottom: #deee85 3px solid;
+    opacity: 1.2;
+    /*background: #104403 !important;*/
+}
+
+.nav-link:hover {
+    color: #deee85 !important;
+}
+
+.btn-outline-success {
+    color: #fff !important;
+}
+
+#home-section {
+    background: url(./img/Nigerian-Army1.jpg) no-repeat;
+    min-height: 720px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+body {
+    z-index: 20 !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+/* Modal*/
+
+.modal-backdrop {
+    z-index: 1 !important;
+  }
+
+.thankful {
+    color: #104403;
+}
+
+.dark-overlay {
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 720px;
+}
+
+.home-inner {
+    padding-top: 150px;
+}
+
+.card-form {
+    opacity: 0.8;
+}
+
+.fa {
+    color: #104403;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    
+}
+
+#head-core {
+    padding-top: 20px;
+}
+
+.core-inner {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.text-md {
+    border: #104403 2px solid;
+    font-size: 25px;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+#head-core .core-card {
+    height: 300px !important;
+}
+
+.card-text {
+    font-size: 25px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rehab-text {
+    font-size: 20px;
+}
+
+#Rehab {
+    background: #104403;
+    color: #fff;
+    padding: 5px;
+}
+
+.text-on {
+    color: #f87272;
+}
+
+.after-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.img-text {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#ptsd {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.text-ptsd {
+    font-size: 100px;
+    padding-top: 0%;
+}
+
+.text-status {
+    padding-left: 100px;
+}
+
+.ptsd-img {
+    width: 350px;
+}
+
+.text-ptsd {
+    color: #104403;
+}
+
+.ptsd-row {
+    text-align: center;
+}
+
+.list-ptsd {
+    font-size: 18px;
+    padding: 20px;
+}
+
+#ptsd .list-ptsd .fa-check {
+    background: #deee85;
+}
+
+.ptsd-inner-text {
+    font-size: 18px;
+}
+
+#section-benefits {
+    background: #104403;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.grand-content {
+    padding-bottom: 20px;
+}
+
+.benefits-overall {
+    font-size: 18px;
+}
+
+.objectives {
+    color: #333;
+}
+
+.obj-head {
+    color: #104403;
+}
+
+.obj-body {
+    font-size: 18px;
+}
+
+.mission {
+    padding-top: 20px;
+}
+
+.rounded {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.patron {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#board {
+    padding-top: 20px;
+}
+
+#vision {
+    background: #104403;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-header {
+    background: #deee85 !important;
+}
+
+.vision-text {
+    font-size: 30px;
+}
+
+.future {
+    font-size: 20px;
+}
+
+.needs {
+    font-size: 20px;
+}
+.goal-text {
+    font-size: 30px;
+}
+
+video {
+    width: 200px !important;
+}
+
+.media {
+    padding-top: 5px;
+    background: #104403;
+    padding-bottom: 5px;
+}
+
+/* Footer*/
+
+#footer{
+    background: #333;
+    padding: 0 0 5px 0;
+    font-size: 14px;
+    border-top: 2px #deee85 solid;
+  }
+  
+  .footer-top{
+    padding: 60px 0 30px 0;
+  }
+  
+  .footer-info{
+    margin-bottom: 0px;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+  }
+  
+  .footer-info p{
+    font-size: 13px;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+  
+  .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #deee85;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  }
+  
+  .footer-top h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 5px;
+  }
+  
+  #footer .footer-top .footer-links{
+    margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #footer .footer-top .footer-links ul li{
+    padding: 8px 0;
+  }
+  
+  #footer .footer-top .footer-links ul li:first-child{
+    padding-top: 0;
+  }
+
+  
+  
+  #footer .footer-top .footer-contact{
+    margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-contact p{
+    line-height: 26px;
+    font-size: 16px;
+  }
+  
+  
+  #footer .copyright {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  #footer .footer-top .footer-links ul a{
+    color: #ecf5ff;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  #footer .footer-top .footer-links ul a:hover {
+      color: #deee85;
+  }
+  
+  .alerty {
+      background: #fff;
+      color: #104403;
+      display: none;
+  }
+
+  .alert {
+    background: #fff;
+    color: #104403;
+    display: none;
+}
+
+  .social-links a .footer {
+      background: none !important;
+      color: #104403;
+  }
+
+  .top-modal {
+      padding: 20px;
+  }
+
+  .img-launch {
+      height: 300px !important;
+      width: 300px !important;
+  }
+
+@media(max-width: 430px) {
+    .showcase-content {
+      margin-top: 5px;
+    }
+  
+    .container {
+      max-width: 100%;
+      margin: auto;
+      overflow: hidden;
+      padding: 0 1rem;
+    }
+
+    .logo-text {
+        display: none;
+    }
+
+    .core-text {
+        font-size: 25px;
+    }
+
+    .text-md {
+        font-size: 20px;
+    }
+
+    .rehab-top {
+        font-size: 25px !important;
+    }
+
+    .ptsd-top {
+        font-size: 25px !important;
+    }
+
+  }
+
+  @media(max-width: 770px) {
+    .media .row {
+        display: inline !important;
+    }
+
+    video {
+        width: 100% !important;
+        margin-top: -20px;
+    }
+
+    .media .img-text {
+        font-size: 18px;
+    }
+
+    .text-ptsd {
+        font-size: 30px;
+    }
+
+    .rounded {
+        width: 400px !important;
+    }
+
+    .img-rehab {
+        width: 400px !important;
+    }
+
+    .img-launch {
+        width: 400px !important;
+    }
+  }

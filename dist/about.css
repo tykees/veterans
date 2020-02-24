@@ -1,0 +1,163 @@
+
+
+.navbar {
+    border-bottom: #deee85 3px solid;
+    opacity: 1.2;
+    /*background: #104403 !important;*/
+}
+
+.nav-link:hover {
+    color: #deee85 !important;
+}
+
+.btn-outline-success {
+    color: #fff !important;
+}
+
+body {
+  z-index: 20 !important;
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+
+
+.top-section {
+    background: url(./img/texture-.jpg) no-repeat;
+    min-height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 2px #deee85 solid;
+    padding-top: 100px
+}
+
+.top-text {
+    padding-top: 20px;
+}
+
+body {
+    background: #104403;
+}
+
+.us {
+    padding-top: 20px;
+}
+
+.first-top {
+    font-size: 20px;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+/* Footer*/
+
+#footer{
+    background: #333;
+    padding: 0 0 5px 0;
+    font-size: 14px;
+    border-top: 2px #deee85 solid;
+    margin-top: 100px;
+
+  }
+  
+  .footer-top{
+    padding: 60px 0 30px 0;
+  }
+  
+  .footer-info{
+    margin-bottom: 0px;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+  }
+  
+  .footer-info p{
+    font-size: 13px;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+  
+  .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #deee85;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  }
+  
+  .footer-top h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 5px;
+  }
+  
+  #footer .footer-top .footer-links{
+    margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #footer .footer-top .footer-links ul li{
+    padding: 8px 0;
+  }
+  
+  #footer .footer-top .footer-links ul li:first-child{
+    padding-top: 0;
+  }
+
+  
+  
+  #footer .footer-top .footer-contact{
+    margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-contact p{
+    line-height: 26px;
+    font-size: 16px;
+  }
+  
+  
+  #footer .copyright {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  #footer .footer-top .footer-links ul a{
+    color: #ecf5ff;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  #footer .footer-top .footer-links ul a:hover {
+      color: #deee85;
+  }
+
+  .social-links a .footer {
+      background: none !important;
+      color: #104403;
+  }
+
+
+  @media(max-width: 430px) {
+
+    .logo-text {
+        display: none;
+    }
+    .top-text {
+      font-size: 25px;
+    }
+
+  }
