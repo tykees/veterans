@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./Greenheroes.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>GreenHeroes</title>
+</head>
+
+<body id="home">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <a href="Greenheroesvet.html" class="navbar-brand"><img src="./img/heroes.jpeg" width="60px" height="60px"
+                    style="border-radius: 20%;" alt=""> <small class="logo-text">Green Heroes Foundation</small> </a>
+            <botton class="navbar-toggler" data-toggle="collapse" data-target="#navbarcollapse">
+                <span class="navbar-toggler-icon"></span>
+            </botton>
+            <div class="collapse navbar-collapse" id="navbarcollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link text-white">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://medium.com/@greenheroesfoundation" target="_blank" class="nav-link text-white">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="form.html" class="nav-link text-white">Heroes-Form</a>
+                    </li>
+                   <!--<li class="nav-item">
+                        <a href="#join-us" class="nav-link text-white">Get-Started</a>
+                    </li>-->
+                    <li class="nav-item">
+                              <!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">
+                    Donate Today
+                    </button>
+  
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Thank You For The Support!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                        <h4 class="text-center">For Your Cash Donation</h4>
+                            <h6>Green Heroes Foundation Account No: <strong>1020724327 UBA</strong></h6>
+                            <h6>Green Heroes Foundation Account No: <strong>5600392598 FIDELITY</strong></h6>
+                        </div>
+                        <div class="modal-footer">
+                            <i class="text-center thankful">The Almighty Bless You As You Help & Thanks For Caring.</i>
+                        <!--Modal 2-->
+                        <!-- Small modal -->
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target=".bd-example-modal-sm">I've made a donation</button>
+                    
+                            <div class="modal fade bd-example-modal-sm bg-dark " tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-sm" role="document">
+                                <div class="modal-content">
+                                    <div class="top-modal">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <div class="container">
+                                        <h4>Thank you for the Donation.<i class="fa fa-heart"></i></h4>
+                                        <p>Kindly fill up this short form to record your donation</p>
+                                        <div class="alert bg-dark text text-white">Information recieved</div>
+                                        <form id="donorform">
+                                            <div class="form-group">
+                                                <input type="text" id="donorname" class="form-control form-control-lg" 
+                                                    placeholder="Name" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="number" id="amount" class="form-control form-control-lg" 
+                                                    placeholder="Amount" required>
+                                            </div>
+                                            <input type="submit" value="Submit" id="submitBtn" class="btn btn-success btn-block">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!---->
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                  </li>
+              </ul>
+         </div>
+      </div>
+</nav>
+
+    <!--Head-->
+
+    <header id="home-section">
+        <div class="dark-overlay">
+            <div class="home-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 d-none d-lg-block">
+                            <h1 class="display-4"> For the <strong>care and support</strong> of our War veterans</h1>
+                            <div class="d-flex flex-row">
+                                <div class="p-4 aligh-self-start">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="p-4 aligh-self-end">
+                                    GreenHeroes Foundation is founded by Nigerians to provide Care and Support for our
+                                    War Veterans.
+                                </div>
+                            </div>
+                            <!--2-->
+                            <div class="d-flex flex-row">
+                                <div class="p-4 aligh-self-start">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="p-4 aligh-self-end">
+                                    Coming home does not mean the war is over, for some veterans a new battle begins.
+                                </div>
+                            </div>
+                            <!--3-->
+                            <div class="d-flex flex-row">
+                                <div class="p-4 aligh-self-start">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="p-4 aligh-self-end">
+                                    Nigerians, let's help our war veterans cope with these challenges.
+                                </div>
+                            </div>
+                            
+                            <div class="d-flex flex-row">
+                                <div class="p-4 aligh-self-start">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="p-4 aligh-self-end">
+                                    Over War Veterans should not go hungry, homeless and hopeless. Your Windows mite
+                                    will be highly appreciated.
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card bg-success text-center card-form">
+                                <div class="card-body">
+                                    <h3>We Want To Know You</h3>
+                                    <p>Please Fill Up the form as a Volunteer</p>
+                                    <div class="alerty">Your details has been recieved</div>
+                                    <form id="volunteerform">
+                                        <div class="form-group">
+                                            <input type="text" id="name" class="form-control form-control-lg" 
+                                                placeholder="Name" required>
+                                        </div>
+                                        <!--1-->
+                                        <div class="form-group">
+                                            <input type="text" id="specialty" class="form-control form-control-lg" 
+                                                placeholder="Area Of Specialty">
+                                        </div>
+                                        <!--2-->
+                                        <div class="form-group">
+                                            <input type="email" id="email" class="form-control form-control-lg" 
+                                                placeholder="Email" required>
+                                        </div>
+                                        <!--3-->
+                                        <div class="form-group">
+                                            <input type="number" id="phone" class="form-control form-control-lg" 
+                                                placeholder="Phone" required>
+                                        </div>
+                                        </div>
+                                        <input type="submit" value="Submit" id="submitBtn" class="btn btn-outline-light btn-block">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="media">
+        <div class="container">
+            <div class="row">
+                <div class="col-md media-body text-white">
+                    <h3 class="text-center">Heroes</h3>
+                    <p class="img-text text-center">There is no greater honor than to
+                        serve our country. Every day, we salute our heroes that have served our country. We have a
+                        responsibility to honor veterans for the sacrifices they made serving our country.
+                    </p>
+                </div>
+                <video class="col-md vid" height="300" style="border-radius: 5%;" controls>
+                    <source src="https://web.facebook.com/776162139245397/videos/359951131436075/" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <!--Section 1-->
+    <section id="head-core">
+        <div class="container">
+            <h1 class="core-text display-5 text-center">OUR CORE PROGRAMMMES</h1>
+            <div class="core-inner">
+                <div class="row">
+                    <div class="col-md text-md">VETERAN'S FAMILY SUPPORT
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <div class="col-md text-md">REINTEGRATION & REHABILITATION
+                        <i class="fa fa-home"></i> </div>
+                    <div class="col-md text-md">POST TRAUMATIC STRESS DISORDER
+                        <i class="fa fa-assistive-listening-systems"></i>
+                    </div>
+                </div>
+
+                <!--Card here-->
+                <div class="card mb-3">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="./img/family-support.jpg" class=" img-fluid card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title">VETERANS FAMILY SUPPORT</h4>
+                                <p class="card-text">We create support for Children Education, Welfare and
+                                    Widows
+                                    Support in Skill acquisation & Econimic Support</p>
+                                <button type="button" class="btn btn-success">Support A Family</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section 2-->
+
+    <section id="Rehab">
+        <div class="container">
+            <h1 class="display-4 text-center rehab-top">REINTEGRATION & REHABILITATION</h1>
+            <p class="rehab-text text-center">Our War Veterans should not go hungry, homeless and hopeless. Your widows
+                mite will be highly appreciated.</p>
+            <h3 class="text-center">Some of the Lifes we have touched</h3>
+            <h4 class="text-center text-on">Before</h4>
+            <div class="img-tab">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="./img/innocent.jpg" alt="..." class="img-thumbnail img-rehab">
+                    </div>
+                    <!--2-->
+                    <div class="col-sm">
+                        <img src="./img/francisco.jpg" alt="..." class="img-thumbnail img-rehab">
+                    </div>
+                    <!--3-->
+                    <div class="col-sm">
+                        <img src="./img/ibrahim.jpg" alt="..." class="img-thumbnail img-rehab">
+                    </div>
+                    <!--4-->
+                    <div class="col-sm">
+                        <img src="./img/ahmadu.jpg" alt="..." class="img-thumbnail img-rehab">
+                    </div>
+                </div>
+            </div>
+            <!--After Content-->
+            <div class="after-content">
+                <h4 class="text-center text-on">After</h4>
+                <div class="img-tab">
+                    <div class="row">
+                        <div class="col-sm">
+                            <img src="./img/afterrr.jpg" alt="..." class="img-thumbnail img-rehab">
+                        </div>
+                        <!--2-->
+                        <div class="col-sm">
+                            <img src="./img/afterr.jpg" alt="..." class="img-thumbnail img-rehab">
+                        </div>
+                        <!--3-->
+                        <div class="col-sm">
+                            <img src="./img/after.jpg" alt="..." class="img-thumbnail img-rehab">
+                        </div>
+                        <!--4-->
+                        <div class="col-sm">
+                            <img src="./img/shelter.jpg" alt="..." class="img-thumbnail img-rehab">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="ptsd">
+        <div class="container">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="display-4 text-center ptsd-top">POST TRAUMATIC STRESS DISORDER</h5>
+                    <div class="row ptsd-row">
+                        <div class="col-md">
+                            <h1>Know your</h1>
+                            <h1 class="text-ptsd">PTSD</h1>
+                            <h1 class="text-status">STATUS</h1>
+                        </div>
+                        <!--Front-->
+                        <div class="col-md">
+                            <img src="./img/PSTD.jpeg" class="img-fluid ptsd-img" style="border-radius: 20%;"
+                                alt="responsive-img">
+                        </div>
+                    </div>
+                    <!--Second line-->
+                    <div class="list-ptsd">
+                        <p><i class="fa fa-check"></i> <small class="ptsd-inner-text">Learn as much as you can about
+                                Past
+                                Traumatic Stress
+                                Disorder. This knowledge should help you to understand what the family member is going
+                                through. The more you know, the better you and your family can handle PTSD.</small>
+                        </p>
+
+                        <p><i class="fa fa-check"></i> <small class="ptsd-inner-text">Tell your loved ones you want to
+                                listen and that you will
+                                also
+                                understand if he or she doesn't feel like talking.</small>
+                        </p>
+                        <p><i class="fa fa-check"></i> <small class="ptsd-inner-text">Plan family activities
+                                together.</small>
+                        </p>
+                        <p><i class="fa fa-check"></i> <small class="ptsd-inner-text">Walk or do some physical
+                                activities together.</small>
+                        </p>
+                        <p><i class="fa fa-check"></i> <small class="ptsd-inner-text">Encourage contact with family and
+                                close friends. A support
+                                system
+                                will help your family members get through difficult changes and stressful time.</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-benefits">
+        <div class="container">
+            <div class="benefits-overall">
+                <h4 class="benefits text-center">PROJECTED BENEFITS TO THE VETERANS AND THE NATION</h4>
+                <p><i class="fa fa-check"></i> Employment opportunities for war veterans as the foundation's activities
+                    would be manned and coordinated by veterans across the country.</p>
+                <p><i class="fa fa-check"></i> Skill acquisation and empowerment programs to ensure full rehabilitation
+                    and
+                    self-sufficiency of the veterans. </p>
+                <p><i class="fa fa-check"></i> Providing of improved health care services through the establishments of
+                    dedicated Hospitals and Clinics for veterans and their dependents.</p>
+                <p><i class="fa fa-check"></i> Improved welfare package for veterans through targeted advocacy to secure
+                    reasonable discounts and rebates in both public and private enterprises. </p>
+                <p><i class="fa fa-check"></i> Total entrance of vets into the society with the desired appreciation.
+                </p>
+                <p><i class="fa fa-check"></i> Enhancement of peace and the security of Nigeria through the proper
+                    retooling, reorientation and rehabilitation of war veterans.</p>
+                <p><i class="fa fa-check"></i> After proper rehabilitation the Vets could be engaged by relevant
+                    Government
+                    Agencies for disaster management duties.</p>
+            </div>
+            <div class="card objectives">
+                <div class="card-body">
+                    <h3 class="obj-head">Objectives</h3>
+                    <div class="obj-body">
+                        <p><i class="fa fa-star"></i>To provide medical counseling and assessment of war veterans</p>
+                        <p><i class="fa fa-star"></i> To promote research studies on post war conditions and
+                            understanding
+                            to
+                            both serving and retired veterans.</p>
+                        <p><i class="fa fa-star"></i> To promote the understanding of veteran welfare and integration.
+                        </p>
+                        <p><i class="fa fa-star"></i> To carry out advocacy, public enlightment and the effects; as a
+                            way of
+                            promoting peaceful coexistence in Nigerian.</p>
+                    </div>
+                </div>
+            </div>
+            <!--Our Mission & Services-->
+            <div class="mission">
+                <h3 class="mission-head">Our Mission & Services</h3>
+                <div class="mission-body">
+                    <p><i class="fa fa-star"></i> Reunion Services</p>
+                    <p><i class="fa fa-star"></i> Reintegration & rehabilitation services</p>
+                    <p><i class="fa fa-star"></i> Care and supports to war veterans & their families in times of needs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Board-->
+    <section id="board">
+        <div class="container">
+            <h1 class="text-center">BOARD OF TRUSTEES</h1>
+            <div class="grand-content">
+                <img src="./img/Patron.jpg" width="300px" class="patron img-fluid mx-auto d-block" alt="...">
+            </div>
+            <!--Roll 2-->
+            <div class="row">
+                <div class="col-md">
+                    <img src="./img/Bida.jpg" alt="..." class="img-thumbnail rounded img-fluid">
+                </div>
+                <!--2-->
+                <div class="col-md">
+                    <img src="./img/Balogun.jpg" alt="..." class="img-thumbnail rounded img-fluid">
+                </div>
+                <!--3-->
+                <div class="col-md">
+                    <img src="./img/Akogun.jpg" alt="..." class="img-thumbnail rounded img-fluid">
+                </div>
+                <!--4-->
+                <div class="col-md">
+                    <img src="./img/Dick.jpg" alt="..." class="img-thumbnail rounded img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="members">
+        <div class="container">
+            <h1 class="text-center">MEMBERS</h1>
+            <div class="row">
+                <div class="col-md">
+                    <img src="./img/Frank.jpg" alt="..." class="img-thumbnail rounded img-fluid">
+                </div>
+                <!--2-->
+                <div class="col-md">
+                    <img src="./img/Ayuba.jpg" alt="..." class="img-thumbnail rounded img-fluid">
+                </div>
+                <!--3-->
+                <div class="col-md">
+                    <img src="./img/Frank.jpg" alt="..." class="img-thumbnail rounded img-fluid">
+                </div>
+                <!--4-->
+                <div class="col-md">
+                    <img src="./img/Ofodile.jpg" alt="..." class="img-thumbnail rounded img-fluid">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="members-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <img src="./img/Ashley.jpg" alt="..." class="img-thumbnail rounded img-fluid">
+                </div>
+                <!--2-->
+                <div class="col-md">
+                    <img src="./img/Idris.jpg" alt="..." class="img-thumbnail rounded img-fluid">
+                </div>
+                <!--3-->
+                <div class="col-md">
+                    <img src="./img/Dola.jpg" alt="..." class="img-thumbnail rounded img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="vision">
+        <div class="container">
+            <div class="card vision-card">
+                <div class="card-header">
+                    <h4 class="text-center">Our Vision</h4>
+                </div>
+                <div class="card-body">
+                    <p class="text-center vision-text">Our vision is to see war veterans get a seamless reintegration
+                        into the civil society and provide
+                        adequate care and shelter for the homeless.</p>
+                </div>
+                <h4 class="card-header text-center">Our Goal</h4>
+                <div class="card-body">
+                    <p class="text-center goal-text">Our goal is to create awareness on the travails of the men
+                        (male/female) in uniform who are constantly exposed to threats and dangers during and after
+                        active service.</p>
+                </div>
+            </div>
+
+            <!--Launch-->
+
+            <section id="launch">
+                <div class="container">
+                    <h3 class="text-center text-white pt-3">Parts Of The GreenHeroes Launching Event</h3>
+                        <div class="row">
+                            <div class="col-md">
+                                <img src="./img/big-church.jpg" alt="..." class="img-thumbnail img-fluid img-launch">
+                            </div>
+                            <!--2-->
+                            <div class="col-md">
+                                <img src="./img/talk-church.jpg" alt="..." class="img-thumbnail img-fluid img-launch">
+                            </div>
+                            <!--3-->
+                            <div class="col-md">
+                                <img src="./img/chuchill.jpg" alt="..." class="img-thumbnail img-fluid img-launch">
+                            </div>
+                        </div>
+                </section>
+            <!--Future project-->
+            <div class="future text-white">
+                <h3 class="text-center pt-3">FUTURE PROJECTS</h3>
+                <div>
+                    <p><i class="fa fa-star"></i> Fund raising and awards ceremony.</p>
+                    <p><i class="fa fa-star"></i> Visits to reputatble organizations and government Agencies for
+                        support.
+                    </p>
+                    <p><i class="fa fa-star"></i> Search for land space.</p>
+                    <p><i class="fa fa-star"></i> Medical examinations for registered vets.</p>
+                    <p><i class="fa fa-star"></i> Beds and beddings.</p>
+                    <p><i class="fa fa-star"></i> Psychological examninations.</p>
+                    <p><i class="fa fa-star"></i> Counselling on retooling, reintegration, rehabilitation and
+                        empowerment.</p>
+                    <p><i class="fa fa-star"></i> Veterans family welfare needs.</p>
+                    <p><i class="fa fa-star"></i> Awareness campaign to states across the nation</p>
+                </div>
+            </div>
+            <!--Needs-->
+            <div class="needs text-white">
+                <h3 class="text-center">OUR IMMEDIATE REQUIREMENTS</h3>
+                <div>
+                    <p><i class="fa fa-star"></i> Land space.</p>
+                    <p><i class="fa fa-star"></i> Hostel Accommodations</p>
+                    <p><i class="fa fa-star"></i> Medicare</p>
+                    <p><i class="fa fa-star"></i> Mentoring and guidance by a reputable veteran's foundation.</p>
+                    <p><i class="fa fa-star"></i> Rehabilitation skill acquisition and empowerment needs</p>
+                    <p><i class="fa fa-star"></i> Feeding for Veterans</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-top bg-dark footer-dark text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 footer-info">
+                        <div class="image-text">
+                            <img src="./img/heroes.jpeg" width="100px" height="auto" style="border-radius: 20px;">
+                        </div>
+                        <small class="rc">RC:103383</small>
+                        <h3>GREEN HEROES</h3>
+                        <h3>FOUNDATION</h3>
+                        <small>...reintegration support and care for veterans</small>
+                    </div>
+                    <div class="col-lg-3 footer-links">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="#">Care</a></li>
+                            <li><a href="https://medium.com/@greenheroesfoundation" target="_blank">Blogs</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 footer-contact">
+                        <h4>Contact Us</h4>
+                        <p>
+                            <strong><i class="fa fa-building"></i></strong> Suite 27, Brigade of Guards Shopping Complex, Aguiyi Ironsi Barracks, Asokoro, Abuja.
+                        </p>
+                        <p>
+                            <strong> <i class="fa fa-phone"></i></strong> 0803 384 9024 | 0803 787 1646
+                        </p>
+                        <p>
+                            <strong><i class="fa fa-envelope"></i></strong> admin@greenheroesfoundation.com<br>
+                        </p>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>Social Media</h4>
+                        <div class="social-links">
+                            <a href="#" class="twitter"><i class="fa fa-twitter footer"></i></a>
+                            <a href="https://web.facebook.com/Green-Heroes-Foundation-776162139245397/" target="_blank" class="facebook"><i class="fa fa-facebook footer"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright text-white">
+                &copy; Copyright 2020<strong> Greenheroesfoundation</strong>. All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+    <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-database.js"></script>
+        <script src="./Greenheroes.js"></script>
+</body>
+
+</html>

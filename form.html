@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./form.css">
+    <title>Soldier Form</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <a href="Greenheroesvet.html" class="navbar-brand"><img src="./img/heroes.jpeg" width="60px" height="60px"
+                    style="border-radius: 20%;" alt=""> <small class="logo-text">Green Heroes Foundation</small> </a>
+            <botton class="navbar-toggler" data-toggle="collapse" data-target="#navbarcollapse">
+                <span class="navbar-toggler-icon"></span>
+            </botton>
+            <div class="collapse navbar-collapse" id="navbarcollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link text-white">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://medium.com/@greenheroesfoundation" target="_blank" class="nav-link text-white">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="form.html" class="nav-link text-white">Heroes-Form</a>
+                    </li>
+                </div>
+             </ul>
+        </div>
+    </nav>
+
+    <div class="form-all">
+    <div class="container">
+    <div class="card bg-success text-center card-form">
+        <div class="card-body">
+            <img src="./img/heroes.jpeg" class="img-fluid" width="100px" style="border-radius: 10px;" alt="">
+
+            <h3 class="text-white">We Want To Know You</h3>
+            <p class="text-white">Please Fill Up the form as a War Veteran</p>
+            <div class="alert">
+                <h5 class="display-4">Your Details has been recieved... We will reach out to you.</h5>
+            </div>
+            <form id="veteransform">
+                <div class="row">
+                <div class=" col-md form-group">
+                    <input type="text" id="fullname" class="form-control form-control-lg"
+                        placeholder="Full-Name" required>
+                </div>
+                <!--1-->
+                <div class="col-md form-group">
+                    <input type="text" id="dob" class="form-control form-control-lg"
+                        placeholder="Date of Birth" required>
+                </div>
+                </div>
+                <!--2-->
+                <div class="row">
+                <div class="col-md form-group">
+                    <input type="text" id="rank" class="form-control form-control-lg"
+                        placeholder="Rank & Service No" required>
+                </div>
+                <div class="col-md form-group">
+                    <input type="text" id="unit" class="form-control form-control-lg"
+                        placeholder="Unit Served" required>
+                </div>
+                </div>
+                <!--3-->
+                <div class="row">
+                    <div class="col-md form-group">
+                        <input type="text" id="dor" class="form-control form-control-lg"
+                            placeholder="Date of Retirement" required>
+                    </div>
+                    <div class="col-md form-group">
+                        <input type="text" id="war" class="form-control form-control-lg"
+                            placeholder="Which war have you participated and Time Frame?">
+                    </div>
+                    </div>
+                    <!--4-->
+                    <div class="row">
+                        <div class="col-md form-group">
+                            <input type="email" id="email" class="form-control form-control-lg"
+                                placeholder="Email" required>
+                        </div>
+                        <div class="col-md form-group">
+                            <input type="number" id="phone" class="form-control form-control-lg"
+                                placeholder="phone" required>
+                        </div>
+                        </div>
+                        <!--5-->
+                        <div class="row">
+                            <div class="col-md form-group">
+                                <input type="text" id="command" class="form-control form-control-lg"
+                                    placeholder="Who was/were your commanding officers during war?">
+                            </div>
+                            <div class="col-md form-group">
+                                <input type="text" id="location" class="form-control form-control-lg"
+                                    placeholder="Present Location/Address" required>
+                            </div>
+                            </div>
+                            <!--6-->
+                            <div class="row">
+                                <div class="col-md form-group">
+                                    <input type="text" id="trauma" class="form-control form-control-lg"
+                                        placeholder="Did you experience any traumatic?">
+                                </div>
+                                <div class="col-md form-group">
+                                    <input type="text" id="disability" class="form-control form-control-lg"
+                                        placeholder="Any Disability">
+                                </div>
+                                </div>
+                                <!--Img
+                                <form runat="server">
+                                    <input type='file' id="imgInput" />
+                                    <img id="blah" src="#" style="border-radius: 10px;" alt="your image" />
+                                  </form> -->                              
+                            </div>
+                    <input type="submit" id="submit" value="Submit" class="btn btn-outline-light">
+                </form>
+            </div>
+        </div>
+
+            <footer id="footer">
+                <div class="footer-top bg-dark footer-dark text-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 footer-info">
+                                <div class="image-text">
+                                    <img src="./img/heroes.jpeg" width="100px" height="auto" style="border-radius: 20px;">
+                                </div>
+                                <small class="rc">RC:103383</small>
+                                <h3>GREEN HEROES</h3>
+                                <h3>FOUNDATION</h3>
+                                <small>...reintegration support and care for veterans</small>
+                            </div>
+                            <div class="col-lg-3 footer-links">
+                                <h4>Connect</h4>
+                                <ul>
+                                    <li><a href="#">Care</a></li>
+                                    <li><a href="https://medium.com/@greenheroesfoundation" target="_blank">Blogs</a></li>
+                                </ul>
+                            </div>
+        
+                            <div class="col-lg-4 footer-contact">
+                                <h4>Contact Us</h4>
+                                <p>
+                                    <strong><i class="fa fa-building"></i></strong> Suite 27, Brigade of Guards Shopping Complex, Aguiyi Ironsi Barracks, Asokoro, Abuja.
+                                </p>
+                                <p>
+                                    <strong> <i class="fa fa-phone"></i></strong> 0803 384 9024 | 0803 787 1646
+                                </p>
+                                <p>
+                                    <strong><i class="fa fa-envelope"></i></strong> admin@greenheroesfoundation.com<br>
+                                </p>
+                            </div>
+                            <div class="col-lg-2">
+                                <h4>Social Media</h4>
+                                <div class="social-links">
+                                    <a href="#" class="twitter"><i class="fa fa-twitter footer"></i></a>
+                                    <a href="https://web.facebook.com/Green-Heroes-Foundation-776162139245397/" target="_blank"  class="facebook"><i class="fa fa-facebook footer"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="copyright text-white">
+                        &copy; Copyright 2020<strong> Greenheroesfoundation</strong>. All Rights Reserved
+                    </div>
+                </div>
+            </footer>
+
+            <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+            </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+            <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-database.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-storage.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="./form.js"></script>
+    </body>
+</html>
